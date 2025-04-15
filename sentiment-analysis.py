@@ -4,6 +4,13 @@ from nltk import word_tokenize, pos_tag , ne_chunk
 from textblob import TextBlob
 from collections import defaultdict
 
+''' run once
+import nltk
+nltk.download('word_tokenize')
+nltk.download('post_tag_eng')
+nltk.download(ne_chunk)
+'''
+
 # Retrieving data from url
 url = "https://www.gutenberg.org/cache/epub/55406/pg55406.txt"
 response = requests.get(url)

@@ -10,6 +10,10 @@ This Python script performs sentiment analysis on sentences associated with name
 - Performs sentiment analysis on sentences using TextBlob.
 - Calculates and displays the average sentiment polarity for each named entity.
 
+## Sample Output
+
+![Sample](Sample.png)
+
 ## Requirements
 
 The script requires the following Python libraries:
@@ -24,3 +28,4 @@ You can install the required libraries using pip:
 
 ```sh
 pip install requests beautifulsoup4 nltk textblob
+
